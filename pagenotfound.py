@@ -5,7 +5,7 @@ import smtplib
 
 opener= urllib2.build_opener()
 opener.addheaders = [('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8')]
-#Part One
+#Part 1
 
 
 #Run this, then comment out this code and run code at bottom to find what links are dead.
@@ -399,7 +399,7 @@ extractlinks('http://www.bls.gov/ooh/transportation-and-material-moving/print/ra
 extractlinks('http://www.bls.gov/ooh/transportation-and-material-moving/print/taxi-drivers-and-chauffeurs.htm')
 extractlinks('http://www.bls.gov/ooh/transportation-and-material-moving/print/water-transportation-occupations.htm')
 
-
+#Part 2
 '''
 
 f = open('pagenotfound1.txt')
