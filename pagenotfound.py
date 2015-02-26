@@ -5,7 +5,8 @@ import smtplib
 
 opener= urllib2.build_opener()
 opener.addheaders = [('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8')]
-'''
+#Part One
+
 
 #Run this, then comment out this code and run code at bottom to find what links are dead.
 outToFile = open('pagenotfound1.txt', mode='w')
@@ -432,5 +433,5 @@ for line in f:
     except Exception as e:
         print e
 
-
+'''
 
