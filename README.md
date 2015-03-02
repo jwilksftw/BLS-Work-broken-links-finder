@@ -1,5 +1,5 @@
 # BLS-Work-broken-links-finder
-Before I made this program, there was no way to check to see if any of the over 2,000 links on the 
+Before I made this program, there was no way to check to see if any of the over 2,000 links in the 
 Occupational Outlook Handbook (http://www.bls.gov/ooh) had broken/changed/404'd. 
 
 This program runs in 2 parts. The first part pulls all of the external links from the publication and stores their 
